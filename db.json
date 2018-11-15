@@ -1,0 +1,629 @@
+{
+  "providers": [
+    {
+      "id": 1,
+      "firstName": "Andre",
+      "lastName": "Lucas",
+      "email": "andre.job95@gmail.com",
+      "phone": "79998487247",
+      "biography": "Realizo manutencao de PC's e Notebooks atendo a domicilio trabalho com cartoes de credito.",
+      "rating": "4.6",
+      "indication": "0",
+      "serviceCatId": "4",
+      "avatarUrl": "eu.jpg",
+      "coverUrl": "informatica.jpg",
+      "password": "123456",
+      "facebookUrl": "#",
+      "instagramUrl": "#",
+      "linkedInUrl": "#"
+    },
+    {
+      "id": 2,
+      "firstName": "Paulo",
+      "lastName": "José",
+      "email": "paulo.jose@gmail.com",
+      "phone": "79998487588",
+      "biography": "Suporte informática, smartphones e tablets",
+      "rating": "4.4",
+      "indication": "0",
+      "serviceCatId": "4",
+      "avatarUrl": "avatar1.jpg",
+      "coverUrl": "informatica.jpg",
+      "password": "123456",
+      "facebookUrl": "#",
+      "instagramUrl": "#",
+      "linkedInUrl": "#"
+    },
+    {
+      "id": 3,
+      "firstName": "Antônio",
+      "lastName": "Silva",
+      "email": "silva.antonio@gmail.com",
+      "phone": "79998484050",
+      "biography": "Formatação de computadores notebooks, instalação de programas.",
+      "rating": "3.6",
+      "indication": "0",
+      "serviceCatId": "4",
+      "avatarUrl": "avatar2.jpg",
+      "coverUrl": "informatica.jpg",
+      "password": "123456",
+      "facebookUrl": "#",
+      "instagramUrl": "#",
+      "linkedInUrl": "#"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reformas e reparos",
+      "iconName": "tools.svg"
+    },
+    {
+      "id": 2,
+      "name": "Serviços domésticos",
+      "iconName": "bed.svg"
+    },
+    {
+      "id": 3,
+      "name": "Design",
+      "iconName": "paint-palette.svg"
+    },
+    {
+      "id": 4,
+      "name": "Tecnologia",
+      "iconName": "monitor.svg"
+    },
+    {
+      "id": 5,
+      "name": "Eventos",
+      "iconName": "confetti.svg"
+    },
+    {
+      "id": 6,
+      "name": "Moda",
+      "iconName": "dress.svg"
+    },
+    {
+      "id": 7,
+      "name": "Beleza",
+      "iconName": "cosmetics.svg"
+    },
+    {
+      "id": 8,
+      "name": "Aulas",
+      "iconName": "open-book.svg"
+    },
+    {
+      "id": 9,
+      "name": "Automóveis",
+      "iconName": "car-repair.svg"
+    }
+  ],
+  "consumers": [
+    {
+      "id": 1,
+      "firstName": "Maria",
+      "lastName": "Santos",
+      "phone": "7998487522",
+      "email": "maria@example.com",
+      "password": "123456",
+      "avatarUrl": "girl.svg",
+      "city": "Aracaju",
+      "zipCode": "4906570"
+    }
+  ],
+  "demands": [
+    {
+      "title": "New demand",
+      "description": "demand available",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-10-27T02:20:55.627Z",
+      "id": 1,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        },
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "Demanda zap",
+      "description": "zappp",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-10-27T15:30:02.684Z",
+      "id": 2,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "demand tests",
+      "description": "lalalal demands",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-10-28T23:45:41.577Z",
+      "id": 3,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "vamos ver",
+      "description": "sera se e",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-10-29T00:11:37.339Z",
+      "id": 4,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "demanda pwii",
+      "description": "lalalapw",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-10-29T22:25:49.682Z",
+      "id": 5,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "marcus precisar concertar notebook",
+      "description": "ajuda ai",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-10-29T23:29:46.037Z",
+      "id": 6,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "teste fabio",
+      "description": "oiouasa",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-10-29T23:35:39.479Z",
+      "id": 7,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        },
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "resolve ai",
+      "description": "teste",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-04T13:39:22.949Z",
+      "id": 8,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "Pc nao liga",
+      "description": "fazendo um barulho",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-04T16:14:45.104Z",
+      "id": 9,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "Manutencao para notebook",
+      "description": "procuro tecnico preco justo",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-04T17:01:34.308Z",
+      "id": 10,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "televisao quebrada",
+      "description": "ta assim assim assado",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-04T17:09:21.527Z",
+      "id": 11,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "notebook de rabelo",
+      "description": "quebrou procuro tecnico",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-05T15:52:16.945Z",
+      "id": 12,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "trablet",
+      "description": "tablet nao funciona wifi",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-11T16:03:50.396Z",
+      "id": 13,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "providerId": 1,
+      "name": "manutencao notebook"
+    },
+    {
+      "id": 2,
+      "providerId": 1,
+      "name": "formatar notebook"
+    }
+  ],
+  "plan": [
+    {
+      "id": 1,
+      "name": "Prestador Gratuito",
+      "startDate": "",
+      "endDate": "",
+      "maxUnlock": 2
+    }
+  ],
+  "attendances": [
+    {
+      "id": 1,
+      "providerId": "",
+      "consumerId": "",
+      "demandId": "",
+      "startDate": "",
+      "endDate": "",
+      "status": ""
+    },
+    {
+      "consumerId": 1,
+      "demandId": 1,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "New demand",
+      "demandDescription": "demand available",
+      "startDate": "2018-10-27T03:38:16.570Z",
+      "status": "F",
+      "id": 2,
+      "endDate": "2018-10-28T18:32:06.298Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 2,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "Demanda zap",
+      "demandDescription": "zappp",
+      "startDate": "2018-10-27T15:32:32.443Z",
+      "status": "F",
+      "id": 3,
+      "endDate": "2018-10-28T18:32:16.296Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 3,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "demand tests",
+      "demandDescription": "lalalal demands",
+      "startDate": "2018-10-28T23:50:16.438Z",
+      "status": "F",
+      "id": 4,
+      "endDate": "2018-10-29T01:13:58.626Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 4,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "vamos ver",
+      "demandDescription": "sera se e",
+      "startDate": "2018-10-29T01:20:04.067Z",
+      "status": "F",
+      "id": 5,
+      "endDate": "2018-10-29T01:20:26.568Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 5,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "demanda pwii",
+      "demandDescription": "lalalapw",
+      "startDate": "2018-10-29T22:32:38.255Z",
+      "status": "F",
+      "id": 6,
+      "endDate": "2018-10-29T22:32:44.038Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 6,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "marcus precisar concertar notebook",
+      "demandDescription": "ajuda ai",
+      "startDate": "2018-10-29T23:31:12.070Z",
+      "status": "F",
+      "id": 7,
+      "endDate": "2018-10-29T23:31:47.270Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 7,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "teste fabio",
+      "demandDescription": "oiouasa",
+      "startDate": "2018-10-29T23:44:18.603Z",
+      "status": "F",
+      "id": 8,
+      "endDate": "2018-10-29T23:45:11.413Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 7,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "teste fabio",
+      "demandDescription": "oiouasa",
+      "startDate": "2018-10-29T23:44:49.207Z",
+      "status": "C",
+      "id": 9,
+      "endDate": "2018-11-02T15:12:12.227Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 8,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "resolve ai",
+      "demandDescription": "teste",
+      "startDate": "2018-11-04T13:45:06.592Z",
+      "status": "F",
+      "id": 10,
+      "endDate": "2018-11-04T13:45:56.892Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 9,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "Pc nao liga",
+      "demandDescription": "fazendo um barulho",
+      "startDate": "2018-11-04T16:17:30.299Z",
+      "status": "F",
+      "id": 11,
+      "endDate": "2018-11-04T16:17:43.647Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 10,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "Manutencao para notebook",
+      "demandDescription": "procuro tecnico preco justo",
+      "startDate": "2018-11-04T17:02:02.495Z",
+      "status": "F",
+      "id": 12,
+      "endDate": "2018-11-04T17:02:23.943Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 11,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "televisao quebrada",
+      "demandDescription": "ta assim assim assado",
+      "startDate": "2018-11-04T17:10:47.313Z",
+      "status": "F",
+      "id": 13,
+      "endDate": "2018-11-04T17:11:25.379Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 12,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "notebook de rabelo",
+      "demandDescription": "quebrou procuro tecnico",
+      "startDate": "2018-11-05T15:53:58.910Z",
+      "status": "F",
+      "id": 14,
+      "endDate": "2018-11-05T15:54:55.184Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 13,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "trablet",
+      "demandDescription": "tablet nao funciona wifi",
+      "startDate": "2018-11-11T16:06:20.769Z",
+      "status": "F",
+      "id": 15,
+      "endDate": "2018-11-11T16:06:59.176Z"
+    }
+  ],
+  "feedbacks": [
+    {
+      "comment": "Excelente profissional!!!",
+      "consumerFullName": "Maria Santos",
+      "consumerAvatarUrl": "girl.svg",
+      "providerId": "1",
+      "date": "04/11/18",
+      "id": 1
+    },
+    {
+      "comment": "Preço justo",
+      "consumerFullName": "Maria Santos",
+      "consumerAvatarUrl": "girl.svg",
+      "providerId": "1",
+      "date": "2018-11-04T17:02:40.442Z",
+      "id": 2
+    },
+    {
+      "comment": "muito bom, preço justo",
+      "consumerFullName": "Maria Santos",
+      "consumerAvatarUrl": "girl.svg",
+      "providerId": "1",
+      "date": "2018-11-04T17:11:42.612Z",
+      "id": 3
+    },
+    {
+      "comment": "otimo tecnico",
+      "consumerFullName": "Maria Santos",
+      "consumerAvatarUrl": "girl.svg",
+      "providerId": "1",
+      "date": "2018-11-05T15:55:52.484Z",
+      "id": 4
+    },
+    {
+      "comment": "show!",
+      "rating": 5,
+      "consumerFullName": "Maria Santos",
+      "consumerAvatarUrl": "girl.svg",
+      "providerId": "1",
+      "date": "2018-11-05T16:04:30.534Z",
+      "id": 5
+    },
+    {
+      "comment": "top",
+      "rating": 4,
+      "consumerFullName": "Maria Santos",
+      "consumerAvatarUrl": "girl.svg",
+      "providerId": "1",
+      "date": "2018-11-11T16:07:10.432Z",
+      "id": 6
+    }
+  ]
+}
