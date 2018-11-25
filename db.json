@@ -5,9 +5,12 @@
       "firstName": "Andre",
       "lastName": "Lucas",
       "email": "andre.job95@gmail.com",
-      "phone": "79998487247",
+      "phone": "5579998487247",
       "biography": "Realizo manutencao de PC's e Notebooks atendo a domicilio trabalho com cartoes de credito.",
-      "rating": "4.6",
+      "rating": 4.6,
+      "countRating": 10,
+      "countFeedback": 2,
+      "avgFeedback": 5,
       "indication": "0",
       "serviceCatId": "4",
       "avatarUrl": "eu.jpg",
@@ -15,16 +18,20 @@
       "password": "123456",
       "facebookUrl": "#",
       "instagramUrl": "#",
-      "linkedInUrl": "#"
+      "linkedInUrl": "#",
+      "credits": 25
     },
     {
       "id": 2,
-      "firstName": "Paulo",
-      "lastName": "José",
-      "email": "paulo.jose@gmail.com",
-      "phone": "79998487588",
+      "firstName": "Joaão",
+      "lastName": "Rabelo",
+      "email": "joao@gmail.com",
+      "phone": "5579998487588",
       "biography": "Suporte informática, smartphones e tablets",
-      "rating": "4.4",
+      "rating": 4.4,
+      "countRating": 20,
+      "countFeedback": 12,
+      "avgFeedback": 4,
       "indication": "0",
       "serviceCatId": "4",
       "avatarUrl": "avatar1.jpg",
@@ -32,24 +39,29 @@
       "password": "123456",
       "facebookUrl": "#",
       "instagramUrl": "#",
-      "linkedInUrl": "#"
+      "linkedInUrl": "#",
+      "credits": 0
     },
     {
       "id": 3,
-      "firstName": "Antônio",
-      "lastName": "Silva",
-      "email": "silva.antonio@gmail.com",
-      "phone": "79998484050",
+      "firstName": "Samuel",
+      "lastName": "Arthur",
+      "email": "arthur@gmail.com",
+      "phone": "5579998484050",
       "biography": "Formatação de computadores notebooks, instalação de programas.",
-      "rating": "3.6",
-      "indication": "0",
+      "rating": 3.6,
+      "countRating": 20,
+      "countFeedback": 12,
+      "avgFeedback": 4,
+      "indication": 0,
       "serviceCatId": "4",
       "avatarUrl": "avatar2.jpg",
       "coverUrl": "informatica.jpg",
       "password": "123456",
       "facebookUrl": "#",
       "instagramUrl": "#",
-      "linkedInUrl": "#"
+      "linkedInUrl": "#",
+      "credits": 0
     }
   ],
   "categories": [
@@ -104,7 +116,7 @@
       "id": 1,
       "firstName": "Maria",
       "lastName": "Santos",
-      "phone": "7998487522",
+      "phone": "5579998382002",
       "email": "maria@example.com",
       "password": "123456",
       "avatarUrl": "girl.svg",
@@ -358,6 +370,106 @@
           "providerLastName": "Lucas"
         }
       ]
+    },
+    {
+      "title": "teste de coins",
+      "description": "testando stats",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-21T00:56:03.783Z",
+      "id": 14,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": null,
+      "description": null,
+      "categoryId": null,
+      "consumerId": null,
+      "isLocked": false,
+      "isAvailable": true,
+      "published": "2018-11-21T00:56:04.043Z",
+      "id": 15
+    },
+    {
+      "title": "teste stats",
+      "description": "testeeee",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-21T01:22:16.347Z",
+      "id": 16,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "teste de stats",
+      "description": "verify stats",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-21T02:18:06.878Z",
+      "id": 17,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "teste",
+      "description": "testeee",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-21T20:57:12.369Z",
+      "id": 18,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
+    },
+    {
+      "title": "apenas teste",
+      "description": "zZzZzZz",
+      "categoryId": 4,
+      "consumerId": 1,
+      "isLocked": true,
+      "isAvailable": false,
+      "published": "2018-11-21T22:47:39.481Z",
+      "id": 19,
+      "listNegotiations": [
+        {
+          "providerId": 1,
+          "providerAvatarUrl": "eu.jpg",
+          "providerFirstName": "Andre",
+          "providerLastName": "Lucas"
+        }
+      ]
     }
   ],
   "tags": [
@@ -572,17 +684,74 @@
       "status": "F",
       "id": 15,
       "endDate": "2018-11-11T16:06:59.176Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 14,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "teste de coins",
+      "demandDescription": "testando stats",
+      "startDate": "2018-11-21T01:14:46.495Z",
+      "status": "F",
+      "id": 16,
+      "endDate": "2018-11-21T01:14:51.524Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 16,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "teste stats",
+      "demandDescription": "testeeee",
+      "startDate": "2018-11-21T01:26:13.543Z",
+      "status": "F",
+      "id": 17,
+      "endDate": "2018-11-21T01:28:01.831Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 17,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "teste de stats",
+      "demandDescription": "verify stats",
+      "startDate": "2018-11-21T02:24:42.562Z",
+      "status": "F",
+      "id": 18,
+      "endDate": "2018-11-21T02:24:44.238Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 18,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "teste",
+      "demandDescription": "testeee",
+      "startDate": "2018-11-21T20:57:48.452Z",
+      "status": "F",
+      "id": 19,
+      "endDate": "2018-11-21T21:00:15.172Z"
+    },
+    {
+      "consumerId": 1,
+      "demandId": 19,
+      "providerId": 1,
+      "providerFirstName": "Andre",
+      "providerLastName": "Lucas",
+      "demandTitle": "apenas teste",
+      "demandDescription": "zZzZzZz",
+      "startDate": "2018-11-21T22:49:27.131Z",
+      "status": "F",
+      "id": 20,
+      "endDate": "2018-11-21T22:49:42.760Z"
     }
   ],
   "feedbacks": [
-    {
-      "comment": "Excelente profissional!!!",
-      "consumerFullName": "Maria Santos",
-      "consumerAvatarUrl": "girl.svg",
-      "providerId": "1",
-      "date": "04/11/18",
-      "id": 1
-    },
     {
       "comment": "Preço justo",
       "consumerFullName": "Maria Santos",
@@ -590,40 +759,6 @@
       "providerId": "1",
       "date": "2018-11-04T17:02:40.442Z",
       "id": 2
-    },
-    {
-      "comment": "muito bom, preço justo",
-      "consumerFullName": "Maria Santos",
-      "consumerAvatarUrl": "girl.svg",
-      "providerId": "1",
-      "date": "2018-11-04T17:11:42.612Z",
-      "id": 3
-    },
-    {
-      "comment": "otimo tecnico",
-      "consumerFullName": "Maria Santos",
-      "consumerAvatarUrl": "girl.svg",
-      "providerId": "1",
-      "date": "2018-11-05T15:55:52.484Z",
-      "id": 4
-    },
-    {
-      "comment": "show!",
-      "rating": 5,
-      "consumerFullName": "Maria Santos",
-      "consumerAvatarUrl": "girl.svg",
-      "providerId": "1",
-      "date": "2018-11-05T16:04:30.534Z",
-      "id": 5
-    },
-    {
-      "comment": "top",
-      "rating": 4,
-      "consumerFullName": "Maria Santos",
-      "consumerAvatarUrl": "girl.svg",
-      "providerId": "1",
-      "date": "2018-11-11T16:07:10.432Z",
-      "id": 6
     }
   ]
 }
