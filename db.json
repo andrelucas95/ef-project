@@ -19,7 +19,12 @@
       "facebookUrl": "#",
       "instagramUrl": "#",
       "linkedInUrl": "#",
-      "credits": 25
+      "credits": 25,
+      "photoGallery": [
+        "../../../assets/carousel/slide1.jpg",
+        "../../../assets/carousel/slide2.jpg",
+        "../../../assets/carousel/slide3.jpg"
+      ]
     },
     {
       "id": 2,
